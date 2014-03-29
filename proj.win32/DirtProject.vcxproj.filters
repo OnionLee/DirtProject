@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Object">
+      <UniqueIdentifier>{72175c97-3c12-43f4-9396-1528ace4d373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager">
+      <UniqueIdentifier>{ede4b597-e389-4a0b-b8a4-563dcbc37d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{20623d76-3ddd-4ace-a06f-6b0db3ece25d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene\Game">
+      <UniqueIdentifier>{eba72a29-2e19-40af-bc0d-2849f043b477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene\Title">
+      <UniqueIdentifier>{fd20283a-981c-438b-8715-e0bf3cf8d7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene\Editer">
+      <UniqueIdentifier>{ade27672-814d-4585-b0b8-1e5aab9c5d63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCDataMgr.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCNetworkMgr.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCSceneMgr.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCDirector.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCEditerScene.cpp">
+      <Filter>Classes\Scene\Editer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCGameLayer.cpp">
+      <Filter>Classes\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCGameScene.cpp">
+      <Filter>Classes\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCMainScene.cpp">
+      <Filter>Classes\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCUIlayer.cpp">
+      <Filter>Classes\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCPlayer.cpp">
+      <Filter>Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCBaseObject.cpp">
+      <Filter>Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCTile.cpp">
+      <Filter>Classes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KCTileMgr.cpp">
+      <Filter>Classes\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCDataMgr.h">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCNetworkMgr.h">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCSceneMgr.h">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCDirector.h">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCEditerScene.h">
+      <Filter>Classes\Scene\Editer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCGameScene.h">
+      <Filter>Classes\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCMainScene.h">
+      <Filter>Classes\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCUIlayer.h">
+      <Filter>Classes\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCPlayer.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singleton.h">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCGameLayer.h">
+      <Filter>Classes\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCBaseObject.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCTile.h">
+      <Filter>Classes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KCTileMgr.h">
+      <Filter>Classes\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
